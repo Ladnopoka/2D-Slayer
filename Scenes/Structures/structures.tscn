@@ -1,0 +1,59 @@
+[gd_scene load_steps=5 format=3 uid="uid://ci4ogupyg7r78"]
+
+[ext_resource type="Texture2D" uid="uid://dw5mhpf5sa6u5" path="res://Environment Assets/TX Props.png" id="1_muhrt"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cgcxm"]
+size = Vector2(31, 55)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dc4f5"]
+size = Vector2(34, 15)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4du3e"]
+size = Vector2(12, 13)
+
+[node name="Structures" type="Node2D"]
+
+[node name="Portal" type="Sprite2D" parent="."]
+position = Vector2(342, 233)
+texture = ExtResource("1_muhrt")
+region_enabled = true
+region_rect = Rect2(348.107, 262.503, 102.734, 84.1067)
+
+[node name="GlyphStone" type="Sprite2D" parent="."]
+position = Vector2(389, 158)
+scale = Vector2(1.48, 1.67)
+texture = ExtResource("1_muhrt")
+region_enabled = true
+region_rect = Rect2(224.701, 6.46614, 31.0461, 57.0119)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="GlyphStone"]
+position = Vector2(-262.838, -94.6108)
+scale = Vector2(0.675676, 0.598802)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="GlyphStone/StaticBody2D"]
+position = Vector2(388.5, 158.5)
+shape = SubResource("RectangleShape2D_cgcxm")
+
+[node name="Stone_big" type="Sprite2D" parent="."]
+position = Vector2(338, 174)
+texture = ExtResource("1_muhrt")
+region_enabled = true
+region_rect = Rect2(0.505066, 424.388, 62.3592, 51.8408)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Stone_big"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Stone_big/StaticBody2D"]
+position = Vector2(0, -2)
+shape = SubResource("RectangleShape2D_dc4f5")
+
+[node name="Stone_mid" type="Sprite2D" parent="."]
+position = Vector2(306, 193)
+texture = ExtResource("1_muhrt")
+region_enabled = true
+region_rect = Rect2(125.235, 476.081, 34.7716, 34.7716)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Stone_mid"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Stone_mid/StaticBody2D"]
+position = Vector2(1, 2)
+shape = SubResource("RectangleShape2D_4du3e")

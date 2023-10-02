@@ -1,0 +1,58 @@
+[gd_scene load_steps=6 format=3 uid="uid://d4kl5esm8l541"]
+
+[ext_resource type="Texture2D" uid="uid://yu505lh4vakb" path="res://Skelly Sprites/Idle/Bot/Idle.png" id="1_70ue0"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_k0acd"]
+
+[sub_resource type="Animation" id="Animation_ibsi4"]
+resource_name = "IdleDown"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_gq7le"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_kfm4x"]
+_data = {
+"IdleDown": SubResource("Animation_ibsi4"),
+"RESET": SubResource("Animation_gq7le")
+}
+
+[node name="SkellyIdleDownAnimation" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_k0acd")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_kfm4x")
+}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(707, 196)
+scale = Vector2(4.53571, 5.36)
+texture = ExtResource("1_70ue0")
+region_enabled = true
+region_rect = Rect2(2, 95, 56, 50)
+region_filter_clip_enabled = true

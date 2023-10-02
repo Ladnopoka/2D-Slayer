@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://iosj8pd02kjm"]
+
+[ext_resource type="Texture2D" uid="uid://yu505lh4vakb" path="res://Skelly Sprites/Idle/Bot/Idle.png" id="1_atgbn"]
+[ext_resource type="Script" path="res://Scenes/Scripts/player.gd" id="2_gnd1a"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hnn7b"]
+size = Vector2(21, 19)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("2_gnd1a")
+
+[node name="SkellySprite" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(287, 175)
+scale = Vector2(1.395, 1.7)
+texture = ExtResource("1_atgbn")
+region_enabled = true
+region_rect = Rect2(2, 95, 56, 50)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(8, 30)
+shape = SubResource("RectangleShape2D_hnn7b")

@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://bjhh6v8p2flol"]
+
+[ext_resource type="Script" path="res://Scenes/Scripts/skelly_run_right.gd" id="1_61thn"]
+[ext_resource type="Texture2D" uid="uid://c7dgi64jafs7b" path="res://Environment Assets/TX Player.png" id="2_t2g3u"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2t24c"]
+size = Vector2(25, 13)
+
+[node name="Unit" type="Node2D"]
+
+[node name="Cat" type="CharacterBody2D" parent="."]
+script = ExtResource("1_61thn")
+
+[node name="CatSprite" type="Sprite2D" parent="Cat"]
+scale = Vector2(1.625, 1.45833)
+texture = ExtResource("2_t2g3u")
+region_enabled = true
+region_rect = Rect2(4.52082, 11.9111, 24.0422, 48.0843)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cat"]
+position = Vector2(0, 19)
+shape = SubResource("RectangleShape2D_2t24c")

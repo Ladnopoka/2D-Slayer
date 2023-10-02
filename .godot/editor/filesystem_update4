@@ -1,0 +1,5 @@
+res://Scenes/Levels/level.tscn
+res://Scenes/Player/player.tscn
+res://Scenes/Structures/structures.tscn
+res://Scenes/Stash/stash.tscn
+res://Scenes/SkellyMoveRight/skelly_run_right.tscn

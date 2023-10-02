@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://bniaijxxweua8"]
+
+[ext_resource type="Texture2D" uid="uid://dw5mhpf5sa6u5" path="res://Environment Assets/TX Props.png" id="1_thee3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ymkjy"]
+size = Vector2(59, 20)
+
+[node name="Stash" type="Node2D"]
+
+[node name="Stash" type="StaticBody2D" parent="."]
+
+[node name="StashSprite" type="Sprite2D" parent="Stash"]
+scale = Vector2(1.5125, 1.69737)
+texture = ExtResource("1_thee3")
+region_enabled = true
+region_rect = Rect2(91.5118, 26.2967, 40.2893, 38.5929)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Stash"]
+position = Vector2(1, 8)
+shape = SubResource("RectangleShape2D_ymkjy")

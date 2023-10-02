@@ -1,0 +1,255 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1696193777
+icon.svg::CompressedTexture2D::8942931400852449668::1696160360::1696160363::1::::<><>::
+::res://Environment Assets/::1696161409
+TX Plant.png::CompressedTexture2D::1585084923047112428::1611040733::1696161409::1::::<><>::
+TX Player.png::CompressedTexture2D::7025457758805575441::1611148897::1696161409::1::::<><>::
+TX Props.png::CompressedTexture2D::8766089845169768290::1611409327::1696161409::1::::<><>::
+TX Shadow Plant.png::CompressedTexture2D::2378688590754084296::1610161580::1696161409::1::::<><>::
+TX Shadow.png::CompressedTexture2D::6625485717099931294::1611395353::1696161409::1::::<><>::
+TX Struct.png::CompressedTexture2D::5354326039089055857::1611396049::1696161409::1::::<><>::
+TX Tileset Grass.png::CompressedTexture2D::6671337906498931959::1608882822::1696161409::1::::<><>::
+TX Tileset Stone Ground.png::CompressedTexture2D::6448085359572436128::1605366248::1696161409::1::::<><>::
+TX Tileset Wall.png::CompressedTexture2D::1019628783754849741::1611408779::1696161409::1::::<><>::
+::res://Scenes/::1696184670
+::res://Scenes/Levels/::1696192003
+level.tscn::PackedScene::5988555987745618807::1696192003::0::1::::<><>::uid://c2bv7wqojbgh0::::res://Environment Assets/TX Tileset Grass.png<>res://Scenes/Scripts/level.gd<>uid://cx4ra2riik0x5::::res://Environment Assets/TX Tileset Stone Ground.png<>uid://or6ewqscxkpp::::res://Environment Assets/TX Tileset Wall.png<>uid://iosj8pd02kjm::::res://Scenes/Player/player.tscn<>uid://ci4ogupyg7r78::::res://Scenes/Structures/structures.tscn<>uid://bniaijxxweua8::::res://Scenes/Stash/stash.tscn<>uid://bjhh6v8p2flol::::res://Scenes/SkellyMoveRight/skelly_run_right.tscn
+::res://Scenes/Player/::1696192005
+player.tscn::PackedScene::591522772289445102::1696192005::0::1::::<><>::uid://yu505lh4vakb::::res://Skelly Sprites/Idle/Bot/Idle.png<>res://Scenes/Scripts/player.gd
+::res://Scenes/Scripts/::1696188577
+level.gd::GDScript::-1::1696188577::0::1::::<>Node2D<>::
+player.gd::GDScript::-1::1696183827::0::1::::<>CharacterBody2D<>::
+skelly_run_right.gd::GDScript::-1::1696187033::0::1::::<>CharacterBody2D<>::
+::res://Scenes/SkellyMoveRight/::1696192008
+skelly_run_right.tscn::PackedScene::3033052453960948875::1696192008::0::1::::<><>::res://Scenes/Scripts/skelly_run_right.gd<>uid://c7dgi64jafs7b::::res://Environment Assets/TX Player.png
+::res://Scenes/Stash/::1696192006
+stash.tscn::PackedScene::3315405468686486801::1696192006::0::1::::<><>::uid://dw5mhpf5sa6u5::::res://Environment Assets/TX Props.png
+::res://Scenes/Structures/::1696192006
+structures.tscn::PackedScene::5395080898759170373::1696192006::0::1::::<><>::uid://dw5mhpf5sa6u5::::res://Environment Assets/TX Props.png
+::res://Skelly Sprites/::1696161314
+::res://Skelly Sprites/Attack/::1696161313
+::res://Skelly Sprites/Attack/Bot/::1696161409
+Attack.png::CompressedTexture2D::32948055051547045::1691592025::1696161409::1::::<><>::
+Attack_normal.png::CompressedTexture2D::6244422157014921643::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Attack/Left/::1696161409
+Attack.png::CompressedTexture2D::155298232856960506::1691592025::1696161409::1::::<><>::
+Attack_normal.png::CompressedTexture2D::5841756032781335899::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Attack/LeftBot/::1696161409
+Attack.png::CompressedTexture2D::3266087649635050844::1691592025::1696161409::1::::<><>::
+Attack_normal.png::CompressedTexture2D::7411691287016148692::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Attack/LeftTop/::1696161409
+Attack.png::CompressedTexture2D::2570041282098850275::1691592025::1696161409::1::::<><>::
+Attack_normal.png::CompressedTexture2D::4234453044814104327::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Attack/Right/::1696161409
+Attack.png::CompressedTexture2D::5962428920171527507::1691592025::1696161409::1::::<><>::
+Attack_normal.png::CompressedTexture2D::7554572660746961617::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Attack/RightBot/::1696161409
+Attack.png::CompressedTexture2D::8247274930102628963::1691592025::1696161409::1::::<><>::
+Attack_normal.png::CompressedTexture2D::3029418036442869858::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Attack/RightTop/::1696161409
+Attack.png::CompressedTexture2D::114856751046756696::1691592025::1696161409::1::::<><>::
+Attack_normal.png::CompressedTexture2D::4329259680757467416::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Attack/Top/::1696161409
+Attack.png::CompressedTexture2D::2792029596653613234::1691592025::1696161409::1::::<><>::
+Attack_normal.png::CompressedTexture2D::9210763101720006011::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Block/::1696161313
+::res://Skelly Sprites/Block/Bot/::1696161409
+Block.png::CompressedTexture2D::4768205114837252238::1691592025::1696161409::1::::<><>::
+Block_normal.png::CompressedTexture2D::3946574365274995790::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Block/Left/::1696161409
+Block.png::CompressedTexture2D::402046388924980273::1691592025::1696161409::1::::<><>::
+Block_normal.png::CompressedTexture2D::2862131852931130589::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Block/LeftBot/::1696161409
+Block.png::CompressedTexture2D::8104530213719439085::1691592025::1696161409::1::::<><>::
+Block_normal.png::CompressedTexture2D::7600305890916102925::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Block/LeftTop/::1696161409
+Block.png::CompressedTexture2D::2696915237461481375::1691592025::1696161409::1::::<><>::
+Block_normal.png::CompressedTexture2D::162897304978522254::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Block/Right/::1696161409
+Block.png::CompressedTexture2D::7606419016995268450::1691592025::1696161409::1::::<><>::
+Block_normal.png::CompressedTexture2D::5476749603867691244::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Block/RightBot/::1696161409
+Block.png::CompressedTexture2D::3970594881162319711::1691592025::1696161409::1::::<><>::
+Block_normal.png::CompressedTexture2D::7851816108823361908::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Block/RightTop/::1696161409
+Block.png::CompressedTexture2D::6555606152854330281::1691592025::1696161409::1::::<><>::
+Block_normal.png::CompressedTexture2D::4034543707490352148::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Block/Top/::1696161409
+Block.png::CompressedTexture2D::2273678424288598157::1691592025::1696161409::1::::<><>::
+Block_normal.png::CompressedTexture2D::2938400971342892197::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Boost/::1696161313
+::res://Skelly Sprites/Boost/Bot/::1696161409
+Boost.png::CompressedTexture2D::8721407358807685623::1691592025::1696161409::1::::<><>::
+Boost_normal.png::CompressedTexture2D::1716614470192644412::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Boost/Left/::1696161409
+Boost.png::CompressedTexture2D::7816712591177493161::1691592025::1696161409::1::::<><>::
+Boost_normal.png::CompressedTexture2D::3692295443892381653::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Boost/LeftBot/::1696161409
+Boost.png::CompressedTexture2D::3444936893621341696::1691592025::1696161409::1::::<><>::
+Boost_normal.png::CompressedTexture2D::914918132053768983::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Boost/LeftTop/::1696161409
+Boost.png::CompressedTexture2D::696102446928834361::1691592025::1696161409::1::::<><>::
+Boost_normal.png::CompressedTexture2D::7931558869928987474::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Boost/Right/::1696161409
+Boost.png::CompressedTexture2D::7627287006153482535::1691592025::1696161409::1::::<><>::
+Boost_normal.png::CompressedTexture2D::5040740488607695345::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Boost/RightBot/::1696161409
+Boost.png::CompressedTexture2D::8196534994423113144::1691592025::1696161409::1::::<><>::
+Boost_normal.png::CompressedTexture2D::1087795708027746743::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Boost/RightTop/::1696161409
+Boost.png::CompressedTexture2D::8677713283482514504::1691592025::1696161409::1::::<><>::
+Boost_normal.png::CompressedTexture2D::2016751148809022436::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Boost/Top/::1696161409
+Boost.png::CompressedTexture2D::2122452681675068710::1691592025::1696161409::1::::<><>::
+Boost_normal.png::CompressedTexture2D::3891540765262122035::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Death/::1696161313
+::res://Skelly Sprites/Death/Bot/::1696161409
+Death.png::CompressedTexture2D::3933163572686033356::1691592025::1696161409::1::::<><>::
+Death_normal.png::CompressedTexture2D::2077746385882459703::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Death/Left/::1696161409
+Death.png::CompressedTexture2D::7669137421507083282::1691592025::1696161409::1::::<><>::
+Death_normal.png::CompressedTexture2D::3041547376763598255::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Death/LeftBot/::1696161409
+Death.png::CompressedTexture2D::849942502425262788::1691592025::1696161409::1::::<><>::
+Death_normal.png::CompressedTexture2D::2677759237631156843::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Death/LeftTop/::1696161409
+Death.png::CompressedTexture2D::1344582889060151660::1691592025::1696161409::1::::<><>::
+Death_normal.png::CompressedTexture2D::1607269173894653822::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Death/Right/::1696161409
+Death.png::CompressedTexture2D::2411217970560547964::1691592025::1696161409::1::::<><>::
+Death_normal.png::CompressedTexture2D::8308644485346762273::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Death/RightBot/::1696161409
+Death.png::CompressedTexture2D::4660923497527847215::1691592025::1696161409::1::::<><>::
+Death_normal.png::CompressedTexture2D::8763096189490302163::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Death/RightTop/::1696161409
+Death.png::CompressedTexture2D::2388245210664535559::1691592025::1696161409::1::::<><>::
+Death_normal.png::CompressedTexture2D::5134670786667500624::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Death/Top/::1696161409
+Death.png::CompressedTexture2D::3879888526800240962::1691592025::1696161409::1::::<><>::
+Death_normal.png::CompressedTexture2D::8001233882745182505::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/GetHit/::1696161313
+::res://Skelly Sprites/GetHit/Bot/::1696161409
+GetHit.png::CompressedTexture2D::8886693014469999376::1691592025::1696161409::1::::<><>::
+GetHit_normal.png::CompressedTexture2D::2590442692776214066::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/GetHit/Left/::1696161409
+GetHit.png::CompressedTexture2D::915755132828156348::1691592025::1696161409::1::::<><>::
+GetHit_normal.png::CompressedTexture2D::1807673670622268247::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/GetHit/LeftBot/::1696161409
+GetHit.png::CompressedTexture2D::1008149929302403611::1691592025::1696161409::1::::<><>::
+GetHit_normal.png::CompressedTexture2D::7540210173405555655::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/GetHit/LeftTop/::1696161409
+GetHit.png::CompressedTexture2D::915233466442913103::1691592025::1696161409::1::::<><>::
+GetHit_normal.png::CompressedTexture2D::9193611347014825525::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/GetHit/Right/::1696161409
+GetHit.png::CompressedTexture2D::7560451400688622975::1691592025::1696161409::1::::<><>::
+GetHit_normal.png::CompressedTexture2D::5810095902730758469::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/GetHit/RightBot/::1696161409
+GetHit.png::CompressedTexture2D::7967892038638081198::1691592025::1696161409::1::::<><>::
+GetHit_normal.png::CompressedTexture2D::64117954033940467::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/GetHit/RightTop/::1696161409
+GetHit.png::CompressedTexture2D::6595783697480858937::1691592025::1696161409::1::::<><>::
+GetHit_normal.png::CompressedTexture2D::7506165055524289254::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/GetHit/Top/::1696161409
+GetHit.png::CompressedTexture2D::1232230602754286039::1691592025::1696161409::1::::<><>::
+GetHit_normal.png::CompressedTexture2D::3204614990693709742::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Idle/::1696161314
+::res://Skelly Sprites/Idle/Bot/::1696163120
+Idle.png::CompressedTexture2D::1727687550075569389::1691592025::1696161409::1::::<><>::
+Idle_normal.png::CompressedTexture2D::6633039487061803662::1691592025::1696161409::1::::<><>::
+Idle_single.png::CompressedTexture2D::5705710960107240220::1696163095::1696163120::1::::<><>::
+::res://Skelly Sprites/Idle/Left/::1696161409
+Idle.png::CompressedTexture2D::4493418789739205989::1691592025::1696161409::1::::<><>::
+Idle_normal.png::CompressedTexture2D::44145939956758646::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Idle/LeftBot/::1696161409
+Idle.png::CompressedTexture2D::6991433006104591199::1691592025::1696161409::1::::<><>::
+Idle_normal.png::CompressedTexture2D::5852980422410464867::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Idle/LeftTop/::1696161409
+Idle.png::CompressedTexture2D::4144499961845316492::1691592025::1696161409::1::::<><>::
+Idle_normal.png::CompressedTexture2D::6119999789367520127::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Idle/Right/::1696161409
+Idle.png::CompressedTexture2D::9130772649763297260::1691592025::1696161408::1::::<><>::
+Idle_normal.png::CompressedTexture2D::2251027483225864444::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Idle/RightBot/::1696161409
+Idle.png::CompressedTexture2D::724401304801712927::1691592025::1696161409::1::::<><>::
+Idle_normal.png::CompressedTexture2D::2657650542103857050::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Idle/RightTop/::1696161409
+Idle.png::CompressedTexture2D::8000992610592091103::1691592025::1696161409::1::::<><>::
+Idle_normal.png::CompressedTexture2D::1323409207771453834::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Idle/Top/::1696161409
+Idle.png::CompressedTexture2D::933367927603824936::1691592025::1696161409::1::::<><>::
+Idle_normal.png::CompressedTexture2D::7069227150505305534::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Run/::1696161314
+::res://Skelly Sprites/Run/Bot/::1696161409
+Run.png::CompressedTexture2D::34928170414686034::1691592025::1696161409::1::::<><>::
+Run_normal.png::CompressedTexture2D::7149744097884058132::1691592025::1696161408::1::::<><>::
+::res://Skelly Sprites/Run/Left/::1696161408
+Run.png::CompressedTexture2D::8960130360089588550::1691592025::1696161408::1::::<><>::
+Run_normal.png::CompressedTexture2D::6652789474070839464::1691592025::1696161408::1::::<><>::
+::res://Skelly Sprites/Run/LeftBot/::1696161409
+Run.png::CompressedTexture2D::5135470368545235087::1691592025::1696161408::1::::<><>::
+Run_normal.png::CompressedTexture2D::1352732552724116559::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Run/LeftTop/::1696161409
+Run.png::CompressedTexture2D::1109864693555244485::1691592025::1696161408::1::::<><>::
+Run_normal.png::CompressedTexture2D::6962125592829184459::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Run/Right/::1696161409
+Run.png::CompressedTexture2D::2385943834193065108::1691592025::1696161409::1::::<><>::
+Run_normal.png::CompressedTexture2D::6797573295705242244::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Run/RightBot/::1696161409
+Run.png::CompressedTexture2D::2371922060506153829::1691592025::1696161409::1::::<><>::
+Run_normal.png::CompressedTexture2D::2255882521074526228::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Run/RightTop/::1696161409
+Run.png::CompressedTexture2D::4436352512857628044::1691592025::1696161409::1::::<><>::
+Run_normal.png::CompressedTexture2D::4705286666235478217::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Run/Top/::1696161409
+Run.png::CompressedTexture2D::4594374556925806871::1691592025::1696161409::1::::<><>::
+Run_normal.png::CompressedTexture2D::785259755284581336::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Stunned/::1696161314
+::res://Skelly Sprites/Stunned/Bot/::1696161409
+Stunned.png::CompressedTexture2D::3109642636086940072::1691592025::1696161409::1::::<><>::
+Stunned_normal.png::CompressedTexture2D::3961114324680326564::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Stunned/Left/::1696161409
+Stunned.png::CompressedTexture2D::1997934588573559128::1691592025::1696161409::1::::<><>::
+Stunned_normal.png::CompressedTexture2D::3029948637440971146::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Stunned/LeftBot/::1696161409
+Stunned.png::CompressedTexture2D::7274507843361639491::1691592025::1696161409::1::::<><>::
+Stunned_normal.png::CompressedTexture2D::8653584748864546834::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Stunned/LeftTop/::1696161409
+Stunned.png::CompressedTexture2D::1090492598264533955::1691592025::1696161409::1::::<><>::
+Stunned_normal.png::CompressedTexture2D::8460306264220250735::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Stunned/Right/::1696161409
+Stunned.png::CompressedTexture2D::1266110328759782764::1691592025::1696161409::1::::<><>::
+Stunned_normal.png::CompressedTexture2D::7524600872869922337::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Stunned/RightBot/::1696161409
+Stunned.png::CompressedTexture2D::4287720981633756185::1691592025::1696161409::1::::<><>::
+Stunned_normal.png::CompressedTexture2D::3021058145918670071::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Stunned/RightTop/::1696161409
+Stunned.png::CompressedTexture2D::7520438255161323724::1691592025::1696161409::1::::<><>::
+Stunned_normal.png::CompressedTexture2D::4417062022441110822::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Stunned/Top/::1696161409
+Stunned.png::CompressedTexture2D::1110967088240971501::1691592025::1696161409::1::::<><>::
+Stunned_normal.png::CompressedTexture2D::4602892353187078593::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Walk/::1696161314
+::res://Skelly Sprites/Walk/Bot/::1696161409
+Walk.png::CompressedTexture2D::4694677651834003826::1691592025::1696161409::1::::<><>::
+Walk_normal.png::CompressedTexture2D::4457865487701731191::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Walk/Left/::1696161409
+Walk.png::CompressedTexture2D::8551327908677669780::1691592025::1696161409::1::::<><>::
+Walk_normal.png::CompressedTexture2D::6917359853683946010::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Walk/LeftBot/::1696161409
+Walk.png::CompressedTexture2D::5206715803239962426::1691592025::1696161409::1::::<><>::
+Walk_normal.png::CompressedTexture2D::5575380595750359032::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Walk/LeftTop/::1696161409
+Walk.png::CompressedTexture2D::2800687742328963364::1691592025::1696161409::1::::<><>::
+Walk_normal.png::CompressedTexture2D::1588757788134935637::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Walk/Right/::1696161409
+Walk.png::CompressedTexture2D::5804958009325592968::1691592025::1696161409::1::::<><>::
+Walk_normal.png::CompressedTexture2D::7698735200644717063::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Walk/RightBot/::1696161409
+Walk.png::CompressedTexture2D::5876489417241558684::1691592025::1696161409::1::::<><>::
+Walk_normal.png::CompressedTexture2D::4143213421855001217::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Walk/RightTop/::1696161409
+Walk.png::CompressedTexture2D::5571132551019669862::1691592025::1696161409::1::::<><>::
+Walk_normal.png::CompressedTexture2D::2131953262777576316::1691592025::1696161409::1::::<><>::
+::res://Skelly Sprites/Walk/Top/::1696161409
+Walk.png::CompressedTexture2D::1568446786719968891::1691592025::1696161409::1::::<><>::
+Walk_normal.png::CompressedTexture2D::8184550391259730308::1691592025::1696161409::1::::<><>::
